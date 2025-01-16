@@ -7,5 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import route from './routes/route'
 
-createApp(App).mount('#app')
+createApp(App).use(route).mount('#app')

@@ -8,13 +8,13 @@
             <div class="d-none d-lg-block">
                 <ul class="nav align-items-center">
                     <li class="px-3">
-                        <a href="" class="text-dark text-decoration-none">HOME</a>
+                        <RouterLink to="/" class="text-dark text-decoration-none">HOME</RouterLink>
                     </li>
                     <li class="px-3">
                         <a href="" class="text-dark text-decoration-none">ABOUT</a>
                     </li>
                     <li class="px-3">
-                        <a href="" class="text-dark text-decoration-none">COURSES</a>
+                        <RouterLink to="/course" class="text-dark text-decoration-none">COURSES</RouterLink>
                     </li>
                     <li class="px-3">
                         <a href="" class="text-dark text-decoration-none">CONTACT</a>
@@ -74,6 +74,7 @@
 </template>
 
 <script setup>
+    import { RouterLink } from 'vue-router';
     import { ref } from 'vue';
 
     const isLoggin = ref(false);

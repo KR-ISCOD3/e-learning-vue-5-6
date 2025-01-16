@@ -2,8 +2,9 @@
    <header>
         <Header/>
    </header>
-   <main style="height: 100vh;">
-     <h1>adsa</h1>
+   <main >
+     <!-- <router-view></router-view> -->
+     <RouterView />
    </main>
    <footer>
         <Footer/>
@@ -11,6 +12,7 @@
 </template>
 
 <script setup>
+    import { RouterView } from 'vue-router';
     import Footer from './components/Footer.vue';
     import Header from './components/Header.vue'; 
 

@@ -36,3 +36,28 @@
 .font-body{
     font-family: "Quicksand", serif !important;
 }
+
+
+.text-darkblue-800{
+    color: var(--darkblue-800) !important;
+}
+.text-darkblue-700{
+    color: var(--darkblue-700) !important;
+}
+.text-darkblue-600{
+    color: var(--darkblue-600) !important;
+}
+.text-darkblue-500{
+    color: var(--darkblue-500) !important;
+}
+.text-darkblue-400{
+    color: var(--darkblue-400) !important;
+}
+.text-darkblue-300{
+    color: var(--darkblue-300) !important;
+}
+
+.bg-hover:hover{
+    background-color: var(--darkblue-800)  !important;
+    color: white !important;;
+}
