@@ -6,13 +6,13 @@
           <div class="col-12 col-md-6 py-2 py-lg-5 font-body text-light">
             <h4 class="fw-bold">Quick Link</h4>
             <ul class="list-unstyled">
-              <li class="py-2">
+              <li class="py-1">
                 <a href="" class="nav-link fs-5 fw-medium">About</a>
               </li>
-              <li class="py-2">
+              <li class="py-1">
                 <a href="" class="nav-link fs-5 fw-medium">Course</a>
               </li>
-              <li class="py-2">
+              <li class="py-1">
                 <a href="" class="nav-link fs-5 fw-medium">Contact</a>
               </li>
             </ul>

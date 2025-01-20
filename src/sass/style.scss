@@ -61,3 +61,14 @@
     background-color: var(--darkblue-800)  !important;
     color: white !important;;
 }
+
+.scale:hover{
+    transform: translateY(-10px) !important;
+    background-color: #114793;
+    color: white;
+    
+}
+
+.transition{
+    transition: 0.3s ease-in-out !important;
+}
