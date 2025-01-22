@@ -121,7 +121,6 @@
                   <div class=" bg-darkblue-700" style="height: 2px; width: 12%;"></div>
                 </div>
               </div>
-
             </div>
         </div>
       </div>
@@ -132,6 +131,7 @@
 <script setup>
   import { ref } from 'vue';
   import hatIcon from '../assets/icon/hat.png';
+ import { useMystore } from '../store/mystore';
 
   const arr = ref([
     {
@@ -155,6 +155,14 @@
       des:'Explore any interest or trending topic, take prerequisites, and advance your skills'
     }
   ]);
+
+
+  const myStore = useMystore();
+
+  const {items,loading,error} = myStore;
+  console.log(items);
+  
+
 </script>
 
 <style lang="scss" scoped></style>
