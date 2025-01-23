@@ -67,4 +67,22 @@
 .bg-hover:hover {
   background-color: var(--darkblue-800) !important;
   color: white !important;
+}
+
+.scale:hover {
+  transform: translateY(-10px) !important;
+  background-color: #114793;
+  color: white;
+}
+
+.transition {
+  transition: 0.3s ease-in-out !important;
+}
+
+.text-1line {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }/*# sourceMappingURL=style.css.map */

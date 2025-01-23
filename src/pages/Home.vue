@@ -124,6 +124,7 @@
             </div>
         </div>
       </div>
+      <Card />
     </div>
   </div>
 </template>
@@ -131,7 +132,8 @@
 <script setup>
   import { ref } from 'vue';
   import hatIcon from '../assets/icon/hat.png';
- import { useMystore } from '../store/mystore';
+  import { useMystore } from '../store/mystore'; 
+  import Card from '../components/Card.vue';
 
   const arr = ref([
     {

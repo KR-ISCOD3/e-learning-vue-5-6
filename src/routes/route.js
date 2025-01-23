@@ -5,7 +5,7 @@ import Course from "../pages/Course.vue";
 
 const routes = [
     { path: '/',component: Home},
-    { path: '/course',component: Course},
+    { path: '/course/:id',component: Course},
 ]
 
 // config

@@ -22,14 +22,32 @@ export const useMystore = defineStore('mystore',()=>{
         }
       };
 
+     
+
+      const fetchProductById = async (id) => {
+        loading.value = true;
+        error.value = null;
+    
+        try {
+          const response = await axios.get(`https://e-learning-json-data.onrender.com/course/${id}`);
+          return response.data; // Return the single product
+        } catch (err) {
+          error.value = err.message;
+          return null; // Return null if the product is not found
+        } finally {
+          loading.value = false;
+        }
+      };
+ 
       onMounted(()=>{
         fetchData();
       })
-
+ 
       return{
         items,
         loading,
         error,
+        fetchProductById
       }
 
 })
